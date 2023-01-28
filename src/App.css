@@ -36,3 +36,128 @@
     transform: rotate(360deg);
   }
 }
+.png{
+  height: 10px;
+  background-color: #282c34;
+}
+
+.imgbox{
+  border: 1px solid blue;
+}
+.bigcont{
+  background-color: white(220, 209, 209);
+  height: 320px;
+  display: flex;
+ 
+}
+.cardsimg{
+   background-image: url('https://images.unsplash.com/photo-1598653222000-6b7b7a552625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bXVzaWMlMjBzdHVkaW98ZW58MHx8MHx8&w=1000&q=80');  
+   width: 28rem;
+}
+.cardsimg1{
+  background-image: url('https://thumbs.dreamstime.com/b/irkutsk-russia-may-night-road-city-lights-tracks-cars-sedova-street-240759286.jpg');
+  border-radius: 5px;
+
+}
+.cardsimg2{
+  background-image: url('https://www.hachettebookgroup.com/wp-content/uploads/2017/11/post-featured-image-books-for-writers1.png?fit=1200%2C628');
+ border-radius: 5px;
+}
+.insideImg{
+  display: flex;
+  justify-content: space-between;
+}
+
+.fsize{
+  font-size: 10px;
+
+}
+.btn1{
+  border: 1px solid gray;
+  border-radius: 50%;
+  background-color: gray;
+  height: 25px;
+  
+}
+.btnf{
+  
+  margin-top: 1px;
+  text-align: center;
+  bottom: 14px;
+  color: aliceblue;
+  line-height: 0.6 ;
+}
+.eptag{
+  height: 25px;
+  background-color: orange;
+  width: 60px;
+  margin-top: 140px;
+  border: 1px solid gray;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+.pap{
+  color:rgb(255, 251, 242);
+  margin-top:'2px';
+  margin-right: 296px;
+  font-size: 16px;
+  font-family: bold;
+ 
+}
+.s1{
+  line-height:1.8 ;
+}
+.ribbion{
+  display: flex;
+  justify-content: space-between;
+}
+corner-ribbon {
+  position: relative;
+}
+
+.corner-ribbon__inner1 {
+ 
+  right: 990px;
+ position: absolute;
+  bottom: 434px;
+
+  /* Size */
+  height: 4rem;
+  width: 4rem;
+
+ 
+  overflow: hidden;
+}
+.corner-ribbon__inner {
+ 
+  right: 570px;
+ position: absolute;
+  bottom: 434px;
+
+  height: 4rem;
+  width: 4rem;
+
+ 
+  overflow: hidden;
+}
+
+.corner-ribbon__ribbon {
+
+  left: 1rem;
+  position: absolute;
+  top: 1rem;
+
+
+  height: 1.5rem;
+  width: 7.656rem;
+
+  
+  
+  transform: translate(-10px, 2px) rotate(-45deg);
+
+  background-color: rgb(32, 157, 32);
+
+ 
+  text-align: center;
+}
